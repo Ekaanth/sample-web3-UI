@@ -1,0 +1,198 @@
+.card {
+  position: relative;
+  width: 290px;
+  height: 350px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+  backdrop-filter: blur(50px);
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(46, 49, 73, 0.1) 107.43%
+  );
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icon {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  background: #14172b;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: 10px;
+  top: -50px;
+  background: linear-gradient(
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+  backdrop-filter: blur(50px);
+}
+
+.bitcoin {
+  border-image-source: linear-gradient(
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+
+.solana {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(220, 31, 255, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+
+.ethereum {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(237, 240, 244, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+
+.binance {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(234, 179, 0, 0.06) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+
+.shiba {
+  background: linear-gradient(
+      180deg,
+      rgba(98, 106, 136, 0.1) 0%,
+      rgba(228, 45, 4, 0.1) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 240, 255, 0.1) 0%,
+      rgba(59, 63, 87, 0) 100%
+    );
+}
+
+.icon::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  background: transparent;
+  right: 115px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px #14172b;
+}
+
+.icon::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  background: transparent;
+  left: 115px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px #14172b;
+}
+
+.icon-container > img {
+  margin: 25%;
+}
+
+.content {
+  text-align: center;
+  padding-top: 90px;
+  justify-content: center;
+}
+
+.label {
+  font-weight: 600;
+  color: #737bae;
+  font-size: 12px;
+  opacity: 0.9;
+  padding-bottom: 10px;
+}
+
+.coin-price {
+  display: flex;
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  background: #14172b;
+  border-radius: 17px;
+  left: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  color: rgba(0, 255, 163, 1);
+}
+
+.red {
+  color: rgba(255, 77, 77, 1);
+}
+
+.padding-top {
+  padding-top: 8px;
+}
+
+.tlv {
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  background: #14172b;
+  border-radius: 17px;
+  left: -85px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pairs {
+  box-sizing: border-box;
+  width: 120px;
+  height: 40px;
+  background: #14172b;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-evenly;
+  border: 1px solid transparent;
+  border-radius: 17px;
+}
